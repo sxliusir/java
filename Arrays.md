@@ -1,6 +1,6 @@
 ## 一、Arrays类的定义
 
-Arrays类位于 java.util 包中，主要包含了操纵数组的各种方法，使用时导包:import java.util.Arrays。
+Arrays类位于 java.util 包中，主要包含了操纵数组的各种方法，使用时导包：import java.util.Arrays。
 
 ## 二、Arrays常用函数（都是静态的)
 
@@ -24,7 +24,7 @@ for(int i :nums)
 
 Arrays.sort(Object[] array, int from, int to)
 
-功能：对数组元素指定范围进行排序（排序范围是从元素下标为from,到下标为to-1的元素进行排序）
+功能：对数组元素指定范围进行排序（排序范围是从元素下标为from，到下标为to-1的元素进行排序）
 
 示例:
 
@@ -55,7 +55,7 @@ for(int i :nums)
 
 Arrays.fill(Object[] array,int from,int to,Object object)
 
-功能：对数组的部分元素填充一个值,从起始位置到结束位置，取头不取尾
+功能：对数组的部分元素填充一个值，从起始位置到结束位置，取头不取尾
 
 ```java
 int[] nums = {2,5,0,4,1,-10};
