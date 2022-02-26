@@ -4,7 +4,7 @@ Arrays类位于 java.util 包中，主要包含了操纵数组的各种方法，
 
 ## 二、Arrays常用函数（都是静态的)
 
-1.void Arrays.sort()
+1、void Arrays.sort()
 
 void Array.sort(Object[] array)
 
@@ -39,7 +39,7 @@ for(int i :nums)
  */
 ```
 
-2.Arrays.fill(Object[] array,Object object)
+2、Arrays.fill(Object[] array,Object object)
 
 功能：可以为数组元素填充相同的值
 
@@ -68,33 +68,31 @@ for(int i :nums)
  */
 ```
 
-3.Arrays.toString(Object[] array)
+3、Arrays.toString(Object[] array)
 
 功能：返回数组的字符串形式
 
 示例:
 
 ```java
-        int[] nums = {2,5,0,4,1,-10};
-        System.out.println(Arrays.toString(nums));
-        /*
-         * 结果:[2, 5, 0, 4, 1, -10]
-         */
+int[] nums = {2,5,0,4,1,-10};
+System.out.println(Arrays.toString(nums));
+/*
+ * 结果:[2, 5, 0, 4, 1, -10]
+ */
 ```
 
-4.Arrays.deepToString(Object[][] arrays)
+4、Arrays.deepToString(Object[][] arrays)
 
 功能：返回多维数组的字符串形式
 
 示例
 
 ```java
-
-
 int[][] nums = {{1,2},{3,4}};
-        System.out.println(Arrays.deepToString(nums));
-        /*
-         * 结果:[[1, 2], [3, 4]]
-         */
+System.out.println(Arrays.deepToString(nums));
+/*
+ * 结果:[[1, 2], [3, 4]]
+ */
 
 ```
